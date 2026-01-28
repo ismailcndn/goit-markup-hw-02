@@ -1,6 +1,9 @@
-body {
+.body {
   font-family: "roboto", sans-serif;
-  font-weight: bold;
+  font-weight: regular;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
   color: #2e2f42;
 }
 h1 {
@@ -20,26 +23,53 @@ h3 {
   letter-spacing: 2%;
 }
 p {
-  font-weight: regular;
-  font-size: 16px;
-  letter-spacing: 2%;
-  line-height: 24px;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 14px;
 }
-
-button {
+.order-service-button {
   background-color: #4d5ae5;
-  font-weight: bold;
-  letter-spacing: 0.5%;
+  font-weight: medium;
+  font-size: 16px;
+  letter-spacing: 4%;
   line-height: 24px;
   cursor: pointer;
+  color: #ffffff;
 }
-button:hover {
+.order-service-button:hover {
   background-color: #404bbf;
+  cursor: pointer;
 }
-link {
-  font-weight: regular;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 4%;
-  text-decoration: underline;
+.navbar a {
+  color: #2e2f42;
+}
+.navbar a:hover {
+  color: #404bbf;
+}
+.navbar a:active {
+  color: #4d5ae5;
+}
+.address a {
+  color: #2e2f42;
+}
+.address a:hover {
+  color: #404bbf;
+}
+.address a:active {
+  color: #4d5ae5;
+}
+.section-1 {
+  background-color: #2e2f42;
+}
+.section-1 h1 {
+  color: #ffffff;
+}
+.section-3 {
+  background-color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer p {
+  color: #f4f4fd;
 }
