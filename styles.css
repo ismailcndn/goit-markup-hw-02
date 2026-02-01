@@ -3,14 +3,14 @@
   font-weight: regular;
   font-size: 16px;
   letter-spacing: 2%;
-  line-height: 24px;
+  line-height: 1.5;
   color: #2e2f42;
 }
 h1 {
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 2%;
-  line-height: 60px;
+  line-height: 1.07;
 }
 h2 {
   font-weight: bold;
@@ -25,14 +25,14 @@ h3 {
 p {
   font-size: 12px;
   letter-spacing: 4%;
-  line-height: 14px;
+  line-height: 1.16;
 }
 .order-service-button {
   background-color: #4d5ae5;
   font-weight: medium;
   font-size: 16px;
   letter-spacing: 4%;
-  line-height: 24px;
+  line-height: 1.5;
   cursor: pointer;
   color: #ffffff;
 }
