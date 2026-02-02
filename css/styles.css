@@ -1,37 +1,45 @@
 .body {
   font-family: "roboto", sans-serif;
-  font-weight: regular;
+  font-weight: 400;
   font-size: 16px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.5;
   color: #2e2f42;
 }
+.logo-text {
+  font-family: "raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  color: #4d5ae5;
+}
 h1 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 56px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.07;
 }
 h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 h3 {
-  font-weight: medium;
+  font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 p {
   font-size: 12px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   line-height: 1.16;
 }
 .order-service-button {
   background-color: #4d5ae5;
-  font-weight: medium;
+  font-weight: 500;
   font-size: 16px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   line-height: 1.5;
   cursor: pointer;
   color: #ffffff;
@@ -72,4 +80,10 @@ p {
 }
 .footer p {
   color: #f4f4fd;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
 }
