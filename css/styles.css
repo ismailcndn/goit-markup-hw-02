@@ -1,18 +1,26 @@
 .body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #2e2f42;
 }
-.logo-text {
-  font-family: "raleway", sans-serif;
+.logo-text-header {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  letter-spacing: 0.04em;
-  line-height: 1.4;
-  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  line-height: 1.16;
+  color: #2e2f42;
+}
+.logo-text-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.16;
+  color: #f4f4fd;
 }
 h1 {
   font-weight: 700;
@@ -24,16 +32,18 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
+  line-height: 1.11;
 }
 h3 {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 p {
-  font-size: 12px;
-  letter-spacing: 0.04em;
-  line-height: 1.16;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .order-service-button {
   background-color: #4d5ae5;
@@ -84,6 +94,6 @@ p {
 a {
   text-decoration: none;
 }
-ul {
+li {
   list-style-type: none;
 }
